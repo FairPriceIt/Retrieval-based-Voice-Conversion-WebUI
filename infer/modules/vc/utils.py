@@ -25,7 +25,7 @@ def load_hubert(config):
         suffix="",
     )
     hubert_model = models[0]
-    hubert_model = hubert_model.to('cpu')
+    hubert_model = hubert_model.to(config.device)
     if config.is_half:
         hubert_model = hubert_model.half()
     else:

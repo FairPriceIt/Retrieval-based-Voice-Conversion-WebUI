@@ -28,7 +28,7 @@ app.config['OUTPUT_FOLDER'] = OUTPUT_FOLDER
 
 # Initialize Config
 config = Config()
-config.device = 'cuda'
+config.device = 'cpu'
 config.is_half = False
 
 # Initialize female VC and index
