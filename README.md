@@ -1,22 +1,4 @@
 <div align="center">
-
-<h1>Instructions</h1>
-
-*  python3 -m venv venv
-* source venv/bin/activate
-* sudo apt-get install python3-dev
-* pip install --upgrade setuptools
-* pip install wheel
-* sudo apt update
-* sudo apt install g++
-* pip install -r requirements.txt
-* python tools/download_models.py
-* Download https://huggingface.co/dacoolkid44/VTuber-RVC/blob/main/AyatsunoYuni.zip
-* Unzip
-* Sudo apt install ffmpeg
-* Move .pth to /assets/weights
-* Move to logs /logs/{modelName}/
-
   
 <h1>Retrieval-based-Voice-Conversion-WebUI</h1>
 一个基于VITS的简单易用的变声框架<br><br>
@@ -41,6 +23,24 @@
 > 底模使用接近50小时的开源高质量VCTK训练集训练，无版权方面的顾虑，请大家放心使用
 
 > 请期待RVCv3的底模，参数更大，数据更大，效果更好，基本持平的推理速度，需要训练数据量更少。
+
+
+Instructions
+
+*  python3 -m venv venv
+* source venv/bin/activate
+* sudo apt-get install python3-dev
+* pip install --upgrade setuptools
+* pip install wheel
+* sudo apt update
+* sudo apt install g++
+* pip install -r requirements.txt
+* python tools/download_models.py
+* Download https://huggingface.co/dacoolkid44/VTuber-RVC/blob/main/AyatsunoYuni.zip
+* Unzip
+* Sudo apt install ffmpeg
+* Move .pth to /assets/weights
+* Move to logs /logs/{modelName}/
 
 <table>
    <tr>
