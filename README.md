@@ -2,6 +2,7 @@
 
 <h1>Instructions</h1>
 
+<div align="left">
 *  python3 -m venv venv
 * source venv/bin/activate
 * sudo apt-get install python3-dev
@@ -16,6 +17,7 @@
 * Sudo apt install ffmpeg
 * Move .pth to /assets/weights
 * Move to logs /logs/{modelName}/
+</div>
 
 <h1>Retrieval-based-Voice-Conversion-WebUI</h1>
 一个基于VITS的简单易用的变声框架<br><br>
